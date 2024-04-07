@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+</head>
+<body>
+    <h1>Bienvenidos</h1>
+    <h2>Encuesta sobre gustos en series y peliculas</h2>
+    <h3>Formulario de encuesta</h3>
+    <div>
+        <p><strong>Datos Personales:</stong></p>
+        <form action="">
+            <label for="Nombre"> Nombre</label>
+            <input type="text" id="Nombre" name="Nombre"></br></br>
+            <label for="Apellido">Apellido</label>
+            <input type="text" id="Apellido" name="Apellido"></br></br>
+    </div>
+    <div>
+        <p><strong>Preguntas:</strong></p>
+            <label for="frecuencia">¿Con que frecuencia ves peliculas o series?</label></br></br>
+            <input type="radio" name="frecuencia" value="siempre"><span>Siempre</span>
+            <input type="radio" name="frecuencia" value="a veces"><span>A veces</span>
+            <input type="radio" name="frecuencia" value="casi nunca"><span>Casi nunca</span>
+            <input type="radio" name="frecuencia" value="nunca"><span>Nunca</span></br></br>
+    </div>
+    <div>
+        <label for="Respuesta">De todas las series que has visto los ultimos 6 meses, ¿Cual es tu favorita?</label></br></br>
+        <textarea id="Respuesta" rows="3" cols="60" placeholder="Responde aqui"></textarea></br></br>
+    </div>
+    <div>
+        <label for="fav">Tu tipo de serie favorito/a</label></br>
+        <input type="checkbox" name="Accion" id="Accion"><span>Accion</span></br>
+        <input type="checkbox" name="comedia" id="comedia"><span>Comedia</span></br>
+        <input type="checkbox" name="suspenso" id="suspenso"><span>Suspenso</span></br>
+        <input type="checkbox" name="terror" id="terror"><span>Terror</span></br>
+        <input type="checkbox" name="drama" id="drama"><span>Drama</span></br>
+        <input type="checkbox" name="romance" id="romance"><span>Romance</span></br>
+        <input type="checkbox"><span>Otro</span></br>
+        <textarea rows="3" cols="30"></textarea></br></br>
+    </div>
+    <div>
+        <label for="Respuesta">De todas las peliculas que has visto los ultimos 6 meses, ¿Cual es tu favorita?</label></br></br>
+        <textarea id="Respuesta" rows="3" cols="60" placeholder="Responde aqui"></textarea></br></br>
+    </div>
+    <div>
+        <label for="fav">Tu tipo de pelicula favorito/a</label></br>
+        <input type="checkbox" name="Accion" id="Accion"><span>Accion</span></br>
+        <input type="checkbox" name="comedia" id="comedia"><span>Comedia</span></br>
+        <input type="checkbox" name="suspenso" id="suspenso"><span>Suspenso</span></br>
+        <input type="checkbox" name="terror" id="terror"><span>Terror</span></br>
+        <input type="checkbox" name="drama" id="drama"><span>Drama</span></br>
+        <input type="checkbox" name="romance" id="romance"><span>Romance</span></br>
+        <input type="checkbox"><span>Otro</span></br>
+        <textarea rows="3" cols="30"></textarea></br></br>
+    </div>
+    <div>
+        <label for="resp">¿Te gustaria formar parte de alguna serie o pelicula?</label></br>
+        <input type="radio" name="resp" value="si"><span>Si</span>
+        <input type="radio" name="resp" value="no"><span>No</span></br></br>
+    </div>
+    <div>
+        <input type="submit" value="Enviar">
+        <input type="reset">
+        <input type="button" value="Recibir correos">
+    </div>
+    </form>   
+</body>
+</html>
